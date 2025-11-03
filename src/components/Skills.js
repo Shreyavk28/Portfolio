@@ -10,7 +10,7 @@ const skills = [
   { src: "/images/JavaScript.svg", name: "JavaScript" },
   { src: "/images/React-Dark.svg", name: "React" },
   { src: "/images/NodeJS-Dark.svg", name: "Node.js" },
-  { src: "/images/python-Dark.svg", name: "Python" },
+  { src: "/images/Python-Dark.svg", name: "Python" },
   { src: "/images/django.png", name: "Django" },
   { src: "/images/MongoDB.svg", name: "MongoDB" },
   { src: "/images/C.svg", name: "C Language" },
