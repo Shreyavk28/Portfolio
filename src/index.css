@@ -1,0 +1,21 @@
+@import "aos/dist/aos.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes gradient-move {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient-move 3s ease infinite alternate;
+}
+
+@layer components {
+  .nav-active {
+    @apply text-purple-500 font-semibold border-b-2 border-purple-500;
+  }
+}
