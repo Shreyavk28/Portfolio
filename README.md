@@ -123,7 +123,3 @@ To get a local copy up and running, follow these simple steps.
 
 ---
 
-## 📫 Contact Me
-
-* **GitHub:** [https://github.com/your-username](https://github.com/your-username)
-* **LinkedIn:** [https://linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
