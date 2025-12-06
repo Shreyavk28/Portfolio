@@ -2,17 +2,6 @@
 
 Welcome to the source code for my personal portfolio. This is a fully responsive single-page application (SPA) built with the MERN stack (MongoDB, Express.js, React.js, Node.js) and styled with Tailwind CSS. It's designed to showcase my skills, featured projects, and professional experience.
 
-## 🚀 Live Demo
-
-**[https://your-live-portfolio-url.com](https://portfolio-zz13.vercel.app/)**
-
-*(Replace this with your deployed website's link)*
-
-## 📸 Screenshot
-
-*(Add a screenshot of your portfolio's homepage here)*
-
----
 
 ## ✨ Features
 
