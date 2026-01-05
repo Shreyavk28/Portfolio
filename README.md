@@ -1,42 +1,38 @@
 # Personal Portfolio Website
 
-Welcome to the source code for my personal portfolio. This is a fully responsive single-page application (SPA) built with the MERN stack (MongoDB, Express.js, React.js, Node.js) and styled with Tailwind CSS. It's designed to showcase my skills, featured projects, and professional experience.
+Welcome to the source code for my personal portfolio. This is a fully responsive single-page application (SPA) built using React.js and styled with Tailwind CSS.
+It showcases my skills, featured projects, and professional experience.
+
 
 
 ## ✨ Features
 
-* **Dynamic Projects Section:** A grid of my top projects, each with:
-    * A high-quality image preview
-    * Links to the **GitHub repository** and **Live Demo**
-    * A list of technologies used
-    * Smooth fade-in-on-scroll animations.
-* **Responsive Design:** Looks great on all devices, from mobile phones to desktops.
-* **Modern UI:** Built with Tailwind CSS for a clean, modern aesthetic.
-* **Smooth Animations:** Uses `framer-motion` for fluid page transitions and component animations.
-* **Core Sections:** Includes "About Me," "Skills," "Projects," and "Contact" sections.
+* **Dynamic Projects Section:** A grid of featured projects with tech stacks and links.
+* **Responsive Design:** Optimized for mobile, tablet, and desktop devices.
+* **Modern UI:** Built with Tailwind CSS for a clean and professional look.
+* **Smooth Animations:** Implemented using Framer Motion.
+* **Contact Form Integration:** Uses **Formspree** for handling contact submissions
+  without a custom backend.
+
 
 ---
 
 ## 💻 Tech Stack
 
-This project is built using a modern web development stack:
-
 * **Frontend:**
-    * [React.js](https://reactjs.org/)
-    * [Tailwind CSS](https://tailwindcss.com/)
-    * [Framer Motion](https://www.framer.com/motion/) (for animations)
-    * [React Icons](https://react-icons.github.io/react-icons/)
-* **Backend:**
-    * [Node.js](https://nodejs.org/)
-    * [Express.js](https://expressjs.com/)
-* **Database:**
-    * [MongoDB](https://www.mongodb.com/) (for the contact form, etc.)
+    * React.js
+    * Tailwind CSS
+    * Framer Motion
+    * React Icons
+
+* **Form Handling:**
+    * Formspree
 
 ---
 
 ## 📁 Projects Showcased
 
-This portfolio highlights the following key projects:
+This portfolio showcases selected academic and personal projects:
 
 1.  **Discover the Hidden Gems: A Dynamic Tourism Experience**
     * A responsive travel website for Karnataka tourism with dynamic content from a MongoDB database.
@@ -56,38 +52,27 @@ This portfolio highlights the following key projects:
 
 ---
 
-## local-setup Getting Started
-
-To get a local copy up and running, follow these simple steps.
+## 🚀 Getting Started
 
 ### Prerequisites
-
-* Node.js (v18 or later)
+* Node.js (v18 or later) – required to run the React development server
 * npm
-* MongoDB (local or a remote URI from MongoDB Atlas)
 
-### Installation & Setup
+### Installation & Running
 
-1.  **Clone the repo:**
-    ```sh
-    git clone [https://github.com/your-username/portfolio.git](https://github.com/your-username/portfolio.git)
-    cd portfolio
-    ```
+```sh
+git clone https://github.com/your-username/portfolio.git
+cd portfolio/frontend
+npm install
+npm start
 
-2.  **Install Frontend Dependencies:**
-    ```sh
-    cd frontend
-    npm install
-    ```
+```
+The application will open automatically in your browser at
+http://localhost:3000.
 
-### Running the Application
 
-1.  **Start the Frontend App:**
-    * From the `frontend` directory:
-    ```sh
-    npm start
-    ```
-    The application will open automatically in your browser at `http://localhost:3000`.
+## 📜 License
 
----
+This project is licensed under the MIT License.
+
 
