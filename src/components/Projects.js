@@ -39,6 +39,24 @@ export default function Projects() {
       github: "https://github.com/Shreyavk28/Expense-Tracker", 
       live: "", 
     },
+      {
+  title: "Weather App",
+  description:
+    "Built a responsive weather application with a glassmorphism UI using React and Node.js. Integrates with the OpenWeather API to fetch real-time weather data by city and displays temperature, humidity, and conditions with a clean, modern interface.",
+  tech: ["React.js", "Node.js", "Express.js", "CSS", "OpenWeather API"],
+  github: "https://github.com/Shreyavk28/Weather-App",
+  live: "", 
+},
+{
+  title: "Priority Queue Manager",
+  description:
+    "Developed a data-driven task management system that prioritizes tasks using a Priority Queue algorithm instead of creation time. Implemented custom priority sorting logic with Django ORM and focused on scalable backend design using Object-Oriented Programming principles.",
+  tech: ["Python", "Django", "HTML", "CSS", "Bootstrap", "SQLite"],
+  github: "https://github.com/Shreyavk28/Priority-Queue-Manager-",
+  live: "",
+}
+
+
   ];
 
   

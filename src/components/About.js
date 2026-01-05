@@ -100,7 +100,7 @@ export default function About() {
 
 
           <a
-            href="/Shreya_VK_CV.pdf"
+            href="/Shreya_VK_Resume.pdf"
             download
             className="inline-block px-6 py-3 rounded-lg text-white bg-gradient-to-r from-teal-400 to-purple-400 hover:opacity-90 transform hover:-translate-y-1 transition-transform duration-500 ease-in-out shadow-lg"
           >
