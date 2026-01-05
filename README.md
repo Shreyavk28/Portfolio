@@ -80,30 +80,9 @@ To get a local copy up and running, follow these simple steps.
     npm install
     ```
 
-3.  **Install Backend Dependencies:**
-    ```sh
-    cd ../backend
-    npm install
-    ```
-
-4.  **Create Environment File:**
-    * In the `backend` folder, create a file named `.env`.
-    * Add your MongoDB connection string and a JWT secret:
-        ```
-        MONGO_URI=your_mongodb_connection_string
-        JWT_SECRET=your_super_secret_key
-        ```
-
 ### Running the Application
 
-1.  **Start the Backend Server:**
-    * From the `backend` directory:
-    ```sh
-    npm run dev 
-    ```
-    *(Or whatever your start script is)*
-
-2.  **Start the Frontend App:**
+1.  **Start the Frontend App:**
     * From the `frontend` directory:
     ```sh
     npm start
